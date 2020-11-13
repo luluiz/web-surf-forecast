@@ -1,0 +1,22 @@
+mat-checkbox {
+    small {
+        color: red;
+    }
+}
+
+.intensity {
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.rating {
+    background-image: url("/assets/images/star2.svg");
+    background-size: contain;
+    background-position: center;
+    height: 26px;
+    width: 26px;
+    font-weight: 500;
+    font-size: 14px;
+    background-position-y: -2px;
+    background-repeat: no-repeat;
+}

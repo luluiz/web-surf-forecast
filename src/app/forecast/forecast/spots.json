@@ -1,0 +1,122 @@
+[
+    {
+        "spot_name": "Tabatinga",
+        "text": "BRA - RN - Parnamirim - Tabatinga"
+    },
+    {
+        "spot_name": "Miami",
+        "text": "BRA - RN - Natal - Miami"
+    },
+    {
+        "spot_name": "Madeiro",
+        "text": "BRA - RN - Pipa - Madeiro"
+    },
+    {
+        "spot_name": "Urcada-Conceicao",
+        "text": "BRA - RN - Urcada da Conceição"
+    },
+    {
+        "spot_name": "Lajao",
+        "text": "BRA - RN - Pipa - Lajão"
+    },
+    {
+        "spot_name": "Lajinha",
+        "text": "BRA - RN - Pipa - Lajinha"
+    },
+    {
+        "spot_name": "Touros-Area",
+        "text": "BRA - RN - Touros"
+    },
+    {
+        "spot_name": "Pontal_1",
+        "text": "BRA - RN - Baía Formosa - Pontal"
+    },
+    {
+        "spot_name": "Saji",
+        "text": "BRA - RN - Saji"
+    },
+    {
+        "spot_name": "Praia-de-Pipa",
+        "text": "BRA - RN - Praia de Pipa"
+    },
+    {
+        "spot_name": "Trestles_Lowers",
+        "text": "EUA - CA - Lowers Trestles"
+    },
+    {
+        "spot_name": "Trestles_Uppers",
+        "text": "EUA - CA - Uppers Trestles"
+    },
+    {
+        "spot_name": "Pipeline_1",
+        "text": "EUA - HW - Pipeline"
+    },
+    {
+        "spot_name": "Backdoor-5",
+        "text": "EUA - HW - Backdoor"
+    },
+    {
+        "spot_name": "Banzai-Pipelines-and-Backdoor",
+        "text": "EUA - HW - Banzai Pipeline and Backdoor"
+    },
+    {
+        "spot_name": "Rocky-Point_1",
+        "text": "EUA - HW - Rocky Point"
+    },
+    {
+        "spot_name": "Sunset_1",
+        "text": "EUA - HW - Sunset"
+    },
+    {
+        "spot_name": "Jaws",
+        "text": "EUA - HW - Jaws"
+    },
+    {
+        "spot_name": "Waimea-Bay-Pinballs",
+        "text": "EUA - HW - Waimea Bay"
+    },
+    {
+        "spot_name": "Uluwatu",
+        "text": "INDONESIA - Bukit - Uluwatu"
+    },
+    {
+        "spot_name": "Padang-Padang",
+        "text": "INDONESIA - Bukit - Padang Padang"
+    },
+    {
+        "spot_name": "Macaronis",
+        "text": "INDONESIA - Mentawai - Macaronis"
+    },
+    {
+        "spot_name": "Lances-Right",
+        "text": "INDONESIA - Mentawai - Lances Right"
+    },
+    {
+        "spot_name": "Rifles",
+        "text": "INDONESIA - Mentawai - Rifles"
+    },
+    {
+        "spot_name": "Kandui-Left",
+        "text": "INDONESIA - Mentawai - Kandui Left"
+    },
+    {
+        "spot_name": "Lagundri-The-Point",
+        "text": "INDONESIA - Nias - The Point"
+    },
+    {
+        "spot_name": "Desert-Point-Bangko-Bangko",
+        "text": "INDONESIA - Lombok - Desert Point"
+    },
+    {
+        "spot_name": "Grajagan-Bay",
+        "text": "INDONESIA - Java East - G Bay"
+    },
+    {
+        "spot_name": "Chicama",
+        "text": "PERU - La Libertad - Chicama"
+    },
+    {
+        "spot_name": "Punta-Rocas",
+        "text": "PERU - Punta Hermosa - Punta-Rocas"
+    }
+]
