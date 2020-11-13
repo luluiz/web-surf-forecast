@@ -32,6 +32,12 @@ const MENUITEMS = [
         icon: 'waves'
     },
     {
+        state: 'historic',
+        name: 'Histórico',
+        type: 'link',
+        icon: 'timeline'
+    },
+    {
         state: 'dashboards',
         name: 'Dashboards',
         type: 'sub',

@@ -64,8 +64,8 @@ export class ForecastComponent implements OnInit {
             .subscribe(response => {
                 console.log(response);
                 if (response.success) {
-                    this.forecast = response.forecasts;
-                    this.itemsDS.data = response.forecasts;
+                    this.forecast = response.forecast;
+                    this.itemsDS.data = response.forecast;
                 }
             }, (e) => {
                 console.error(e)

@@ -63,7 +63,7 @@
                 <th mat-header-cell *matHeaderCellDef> Vento (km/h) </th>
                 <td mat-cell *matCellDef="let item; let i = index;">
                     <div fxLayout="row wrap" fxLayoutAlign="center center" fxLayoutGap="5px">
-                        <span fxFlex="initial">{{item.forecast?.wind_speed}} / {{item.forecast?.wind_direction}}</span>
+                        <span fxFlex="initial">{{item.forecast?.wind_speed}} / <b>{{item.forecast?.wind_direction}}</b></span>
                         <img fxFlex="initial" *ngIf="item.forecast?.wave_direction" [src]="getDirectionImg(item.forecast?.wave_direction)">
                     </div>
                 </td>
