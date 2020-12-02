@@ -32,7 +32,7 @@ const MENUITEMS = [
         icon: 'waves'
     },
     {
-        state: 'historic',
+        state: 'forecast/historic',
         name: 'Histórico',
         type: 'link',
         icon: 'timeline'
