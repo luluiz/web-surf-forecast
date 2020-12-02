@@ -48,34 +48,25 @@ const MENUITEMS = [
         ]
     },
     {
-        state: 'apps',
-        name: 'Apps',
-        type: 'sub',
-        icon: 'apps',
-        children: [
-            { state: 'calendar', name: 'Calendar', type: 'link' },
-        ]
-    },
-    {
         state: 'widgets',
         name: 'Widgets',
         type: 'link',
         icon: 'widgets'
     },
-    {
-        state: 'authentication',
-        name: 'Auth',
-        type: 'sub',
-        icon: 'perm_contact_calendar',
+    // {
+    //     state: 'authentication',
+    //     name: 'Auth',
+    //     type: 'sub',
+    //     icon: 'perm_contact_calendar',
 
-        children: [
-            { state: 'login', name: 'Login', type: 'link' },
-            { state: 'register', name: 'Register', type: 'link' },
-            { state: 'forgot', name: 'Forgot', type: 'link' },
-            { state: 'lockscreen', name: 'Lockscreen', type: 'link' },
-            { state: '404', name: 'Error', type: 'link' }
-        ]
-    },
+    //     children: [
+    //         { state: 'login', name: 'Login', type: 'link' },
+    //         { state: 'register', name: 'Register', type: 'link' },
+    //         { state: 'forgot', name: 'Forgot', type: 'link' },
+    //         { state: 'lockscreen', name: 'Lockscreen', type: 'link' },
+    //         { state: '404', name: 'Error', type: 'link' }
+    //     ]
+    // },
 
 ];
 
