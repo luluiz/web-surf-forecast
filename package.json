@@ -30,6 +30,8 @@
         "c3": "^0.4.24",
         "chart.js": "^2.9.3",
         "chartist": "^0.11.4",
+        "chartjs-plugin-annotation": "^0.5.7",
+        "chartjs-plugin-datalabels": "^0.7.0",
         "core-js": "^3.6.4",
         "d3": "^5.15.0",
         "date-fns": "^1.30.1",

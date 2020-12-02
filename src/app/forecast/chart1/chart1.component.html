@@ -1,0 +1,28 @@
+<mat-card>
+    <mat-card-content fxLayout="row wrap" fxLayoutAlign="start start" [formGroup]="form">
+        <mat-radio-group fxFlex="100" fxLayout="row wrap" fxLayoutAlign="start start" formControlName="plot">
+            <div fxFlex="100" fxLayout="row wrap" fxLayoutAlign="center center" fxLayoutGap="15px" style="padding-bottom: 10px;">
+                <mat-radio-button fxFlex="initial" color="accent" value="wave" [ngStyle]="getStyle(0)">Onda (m)</mat-radio-button>
+                <mat-radio-button fxFlex="initial" color="accent" value="period" [ngStyle]="getStyle(1)">Período (s)</mat-radio-button>
+                <mat-radio-button fxFlex="initial" color="accent" value="energy" [ngStyle]="getStyle(5)">Energia (kJ)</mat-radio-button>
+                <mat-radio-button fxFlex="initial" color="accent" value="wind" [ngStyle]="getStyle(6)">Vento (km/h)</mat-radio-button>
+                <mat-radio-button fxFlex="initial" color="accent" value="advanced">Avançado</mat-radio-button>
+            </div>
+            <div fxFlex="100" fxLayout="row wrap" fxLayoutAlign="center center" fxLayoutGap="15px">
+                <mat-checkbox fxFlex="initial" formControlName="wave" color="warn" [disabled]="plot?.value != 'advanced' && plot?.value != 'period'" [ngStyle]="getStyle(0)">Onda (m)
+                </mat-checkbox>
+                <mat-checkbox fxFlex="initial" formControlName="period" color="warn" [disabled]="plot?.value != 'wave'" [ngStyle]="getStyle(1)">Período (s)</mat-checkbox>
+                <mat-checkbox fxFlex="initial" formControlName="swell_1" color="warn" [disabled]="plot?.value != 'advanced'" [ngStyle]="getStyle(2)">Swell 1</mat-checkbox>
+                <mat-checkbox fxFlex="initial" formControlName="swell_2" color="warn" [disabled]="plot?.value != 'advanced'" [ngStyle]="getStyle(3)">Swell 2</mat-checkbox>
+                <mat-checkbox fxFlex="initial" formControlName="swell_3" color="warn" [disabled]="plot?.value != 'advanced'" [ngStyle]="getStyle(4)">Swell 3</mat-checkbox>
+            </div>
+        </mat-radio-group>
+
+        <p *ngIf="!forecast?.length" fxFlex="100">Selecione um pico de surf...</p>
+        <perfect-scrollbar [config]="config">
+            <div class="chart" fxFlex="100" fxFlex.xs="100" *ngIf="forecast?.length">
+                <canvas baseChart [datasets]="dataset" [labels]="labels" [options]="options" [plugins]="plugins" [legend]="legend" [chartType]="type"></canvas>
+            </div>
+        </perfect-scrollbar>
+    </mat-card-content>
+</mat-card>

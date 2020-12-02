@@ -1,4 +1,5 @@
 mat-checkbox {
+    font-size: 14px;
     small {
         color: red;
     }
@@ -19,4 +20,10 @@ mat-checkbox {
     font-size: 14px;
     background-position-y: -2px;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 800px) {
+    app-chart1 {
+        width: 800px;
+    }
 }

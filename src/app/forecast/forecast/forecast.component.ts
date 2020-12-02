@@ -4,10 +4,10 @@ import { MatTableDataSource } from '@angular/material/table';
 import * as _ from "lodash";
 import { Observable } from 'rxjs';
 import { debounceTime, distinctUntilChanged, take } from 'rxjs/operators';
+import * as colors from "../../shared/data/colors.json";
+import * as spots from "../../shared/data/spots.json";
 import { IForecast } from '../../shared/models/forecast.model';
 import { ForecastService } from '../../shared/services/forecast.service';
-import * as colors from "./colors.json";
-import * as spots from "./spots.json";
 
 @Component({
     selector: 'app-forecast',

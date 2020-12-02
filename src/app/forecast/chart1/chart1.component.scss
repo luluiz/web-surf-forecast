@@ -1,0 +1,13 @@
+p {
+    font-size: 14px;
+    text-align: center;
+}
+mat-radio-group {
+    font-size: 14px;
+}
+
+@media (max-width: 800px) {
+    .chart {
+        min-width: 1000px;
+    }
+}

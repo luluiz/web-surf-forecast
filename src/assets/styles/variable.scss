@@ -6,10 +6,10 @@ File: scss
 */
 // Variables
 
-$bodyfont: 'Poppins', sans-serif;
-$headingfont: 'Poppins', sans-serif;
+$bodyfont: "Poppins", sans-serif;
+$headingfont: "Poppins", sans-serif;
 
-@import '~@angular/material/theming';
+@import "~@angular/material/theming";
 
 /*Material Theme Colors*/
 
@@ -37,6 +37,8 @@ $bodytext: #67757c;
 $sidebar-text: #607d8b;
 $sidebar-icons: #99abb4;
 
+$font-12: 12px;
+$font-14: 14px;
 $font-16: 16px;
 
 $light-text: #a6b7bf;
@@ -45,10 +47,10 @@ $themecolor-alt: #26c6da;
 $themecolor-dark: #028ee1;
 
 /*bootstrap Color*/
-$danger: #fc4b6c;
-$success: #26c6da;
-$warning: #ffb22b;
-$primary: #7460ee;
+$danger: #dc3545;
+$success: #28a745;
+$warning: #ffc107;
+$primary: #1e88e5;
 $info: #1e88e5;
 $inverse: #2f3d4a;
 $muted: #99abb4;

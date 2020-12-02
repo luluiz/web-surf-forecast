@@ -17,49 +17,31 @@ File: scss
  *	8. Custom Templates
  */
 
-@import 'variable';
-@import 'icons/themify-icons/themify-icons.css';
-@import 'icons/font-awesome/css/font-awesome.css';
-@import 'spinner';
-@import 'app';
-@import 'header';
-@import 'widgets';
-@import 'pages';
-@import 'sidebar';
-@import 'responsive';
-@import 'rtl';
-
-
-// Red Theme
-
-.danger {  
-	@import 'colors/red';
-  	@include angular-material-theme($red-app-theme);
-}
+@import "variable";
+@import "icons/themify-icons/themify-icons.css";
+@import "icons/font-awesome/css/font-awesome.css";
+@import "spinner";
+@import "app";
+@import "header";
+@import "widgets";
+@import "pages";
+@import "sidebar";
+@import "responsive";
+// @import 'rtl';
 
 // Blue Theme
-
-.blue {  
-	@import 'colors/blue';
-  	@include angular-material-theme($blue-app-theme);
-}
-
-// Green Theme
-
-.green { 
-	@import 'colors/green'; 
-  	@include angular-material-theme($green-app-theme);
+.blue {
+    @import "colors/blue";
+    @include angular-material-theme($blue-app-theme);
 }
 
 // Dark Theme
-
-.dark { 
-	@import 'colors/dark'; 
-  	@include angular-material-theme($dark-theme); 
+.dark {
+    @import "colors/dark";
+    @include angular-material-theme($dark-theme);
 }
-  
 
-$custom-typography: mat-typography-config( 
-  $font-family: 'Poppins'
-); 
+$custom-typography: mat-typography-config(
+    $font-family: "Poppins",
+);
 @include mat-core($custom-typography);
